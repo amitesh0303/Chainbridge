@@ -1,0 +1,21 @@
+{
+  "name": "chainbridge-relayer",
+  "version": "1.0.0",
+  "description": "Off-chain relayer for ChainBridge cross-chain ERC-20 bridge",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}
